@@ -1,4 +1,3 @@
-import { button } from "@/components/ui/button";
 import { Instagram, Mail, Music } from "lucide-react";
 
 export default function Home() {
@@ -60,13 +59,13 @@ export default function Home() {
               </p>
               <div className="flex gap-4">
                 <a href="#contact">
-                  <button className="bg-primary text-primary-foreground hover:bg-primary/90">
+                  <button className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded">
                     Get in Touch
                   </button>
                 </a>
                 <a href="https://instagram.com/themahumedit" target="_blank" rel="noopener noreferrer">
-                  <button variant="outline">
-                    <Instagram className="w-4 h-4 mr-2" />
+                  <button className="border border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 flex items-center gap-2 px-4 py-2 rounded">
+                    <Instagram className="w-4 h-4" />
                     Instagram
                   </button>
                 </a>
@@ -248,20 +247,20 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="mailto:mahumashaikh@hotmail.com">
-              <button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                <Mail className="w-4 h-4 mr-2" />
+              <button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 flex items-center gap-2 px-4 py-2 rounded">
+                <Mail className="w-4 h-4" />
                 Email Me
               </button>
             </a>
             <a href="https://instagram.com/themahumedit" target="_blank" rel="noopener noreferrer">
-              <button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                <Instagram className="w-4 h-4 mr-2" />
+              <button className="border border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 flex items-center gap-2 px-4 py-2 rounded">
+                <Instagram className="w-4 h-4" />
                 @themahumedit
               </button>
             </a>
             <a href="https://tiktok.com/@themahumedit" target="_blank" rel="noopener noreferrer">
-              <button variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                <Music className="w-4 h-4 mr-2" />
+              <button className="border border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 flex items-center gap-2 px-4 py-2 rounded">
+                <Music className="w-4 h-4" />
                 TikTok
               </button>
             </a>
@@ -278,3 +277,4 @@ export default function Home() {
     </div>
   );
 }
+
