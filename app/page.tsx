@@ -31,7 +31,7 @@ const Button = ({
 
 export default function Home() {
   const brands = [
-    { name: "Vrai", category: "Jewellery" },
+    { name: "Vrai", category: "Fine Jewellery" },
     { name: "Linjer", category: "Jewellery" },
     { name: "Carat London", category: "Fine Jewellery" },
     { name: "Monica Vinader", category: "Jewellery" },
@@ -54,10 +54,10 @@ export default function Home() {
   ];
 
   const portfolioItems = [
-    { id: "vrai-1", title: "Vrai", description: "Jewelry showcase and styling", video: "/vrai-1.mp4" },
+    { id: "vrai-1", title: "Vrai", description: "Jewellery showcase and styling", video: "/vrai-1.mp4" },
     { id: "vrai-2", title: "Vrai", description: "Unboxing my new pieces", video: "/vrai-2.mp4" },
     { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/linjer.mp4" },
-    { id: "carat", title: "Carat London", description: "Store visit, Jewelry showcase and styling", video: "/carat-london.mp4" },
+    { id: "carat", title: "Carat London", description: "Store visit, Jewellery showcase and styling", video: "/carat-london.mp4" },
     { id: "monica", title: "Monica Vinader", description: "Gifting campaign for jewellery brand", video: "/monica-vinader.mp4" },
   ];
 
@@ -84,7 +84,7 @@ export default function Home() {
               Content Creator & UGC Specialist
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
-              London-based creator focused on fashion, jewelry, and accessories. I produce polished UGC photos and videos that highlight your products with style and authenticity, connecting brands with audiences who care about quality and design.
+              London-based creator focused on fashion, jewellery, and accessories. I produce polished UGC photos and videos that highlight your products with style and authenticity, connecting brands with audiences who care about quality and design.
             </p>
             <div className="flex justify-center md:justify-start gap-4 mt-6">
   <Button href="#contact">Get in Touch</Button>
@@ -107,7 +107,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-6 text-center space-y-4">
           <h3 className="text-3xl font-bold">About Me</h3>
           <p className="text-lg text-gray-600">
-            I'm Mahum, a London-based creator specializing in fashion, jewelry, and accessories.
+            I'm Mahum, a London-based creator specializing in fashion, jewellery, and accessories.
           </p>
           <p className="text-lg text-gray-600">
             I create content that feels intentional, stylish, and true to each brand's identity — ensuring your products shine with elegance and purpose.
