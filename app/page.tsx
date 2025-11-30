@@ -1,3 +1,4 @@
+import { button } from "@/components/ui/button";
 import { Instagram, Mail, Music } from "lucide-react";
 
 export default function Home() {
