@@ -51,13 +51,13 @@ export default function Home() {
     { brand: "Monica Vinader", image: "/monica-vinader-sample.jpg", size: "large" },
     { brand: "Club L London", image: "/club-london-sample.jpg", size: "large" },
     { brand: "Miphai Collection", image: "/miphai-sample.jpg", size: "large" },
-    { brand: "Timex, Time is a Gift", image: "timex-sample.jpg", size: "large" },
+    { brand: "Timex, Time is a Gift", image: "/timex-sample.JPG", size: "large" },
   ];
 
   const portfolioItems = [
     { id: "vrai-1", title: "Vrai", description: "Jewellery showcase and styling", video: "/vrai-1.mp4" },
     { id: "vrai-2", title: "Vrai", description: "Unboxing my new pieces", video: "/vrai-2.mp4" },
-    { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/linjer.mp4" },
+    { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/Linjer.mp4" },
     { id: "carat", title: "Carat London", description: "Store visit, Jewellery showcase and styling", video: "/caratlondon.mp4" },
     { id: "monica", title: "Monica Vinader", description: "Gifting campaign for jewellery brand", video: "/monica-vinader.mp4" },
   ];
