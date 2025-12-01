@@ -179,7 +179,7 @@ export default function Home() {
           <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
             A selection of my photography work across various brands and styles.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-[300px]">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-auto">
             {photoSamples.map((sample) => (
               <div
                 key={sample.brand}
