@@ -47,8 +47,9 @@ export default function Home() {
 
   const photoSamples = [
     { brand: "Timex Escape Collection", image: "/timex2.jpg", size: "large" },
-    { brand: "Monica Vinader", image: "/monica-vinader-sample.jpg", size: "medium" },
-    { brand: "Club L London", image: "/club-london-sample.jpg", size: "medium" },
+    { brand: "Timex", image: "/timex3.jpg", size: "large" },
+    { brand: "Monica Vinader", image: "/monica-vinader-sample.jpg", size: "large" },
+    { brand: "Club L London", image: "/club-london-sample.jpg", size: "large" },
     { brand: "Miphai Collection", image: "/miphai-sample.jpg", size: "large" },
     { brand: "Timex, Time is a Gift", image: "timex-sample.jpg", size: "large" },
   ];
