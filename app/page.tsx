@@ -60,6 +60,8 @@ export default function Home() {
     { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/Linjer.mp4" },
     { id: "carat", title: "Carat London", description: "Store visit, Jewellery showcase and styling", video: "/carat_london.mp4" },
     { id: "monica", title: "Monica Vinader", description: "Gifting campaign for jewellery brand", video: "/monicavinader_gifting.mp4" },
+    { id: "Commense", title: "Commense", description: "Holiday outfits sorted", video: "/Commense.mp4" },
+
   ];
 
   return (
