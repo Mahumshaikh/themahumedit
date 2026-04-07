@@ -32,6 +32,7 @@ const Button = ({
 export default function Home() {
   const brands = [
     { name: "Vrai", category: "Fine Jewellery" },
+    { name: "Akind", category: "Fine Jewellery" },
     { name: "Linjer", category: "Jewellery" },
     { name: "Carat London", category: "Fine Jewellery" },
     { name: "Monica Vinader", category: "Jewellery" },
@@ -57,10 +58,10 @@ export default function Home() {
   const portfolioItems = [
     { id: "vrai-1", title: "Vrai", description: "Jewellery showcase and styling", video: "/vrai-1.mp4" },
     { id: "vrai-2", title: "Vrai", description: "Unboxing my new pieces", video: "/vrai-2.mp4" },
+    { id: "Akind", title: "Akind", description: "Unboxing my new pieces", video: "/akind.mp4" },
     { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/Linjer.mp4" },
     { id: "carat", title: "Carat London", description: "Store visit, Jewellery showcase and styling", video: "/carat_london.mp4" },
     { id: "monica", title: "Monica Vinader", description: "Gifting campaign for jewellery brand", video: "/monicavinader_gifting.mp4" },
-    { id: "Commense", title: "Commense", description: "Holiday outfits sorted", video: "/Commense.mp4" },
 
   ];
 
