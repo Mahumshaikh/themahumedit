@@ -41,9 +41,9 @@ export default function Home() {
   ];
 
   const rates = [
-    { service: "One Video with Voiceover", price: "£350" },
-    { service: "Three Videos with Voiceover", price: "£1000" },
-    { service: "One Post (Photos) and Story", price: "£300" },
+    { service: "One Video with Voiceover", price: "£400" },
+    { service: "Three Videos with Voiceover", price: "£1100" },
+    { service: "One Post (Photos) and Story", price: "£350" },
   ];
 
   const photoSamples = [
