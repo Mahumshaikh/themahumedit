@@ -56,9 +56,10 @@ export default function Home() {
   ];
 
   const portfolioItems = [
+    { id: "Vrai_6", title: "Vrai", description: "One jewellery look, styled 3 ways", video: "/vrai_6.mp4" },
     { id: "Akind", title: "Akind", description: "Unboxing my new pieces", video: "/akind.mp4" },
     { id: "vrai-1", title: "Vrai", description: "Jewellery showcase and styling", video: "/vrai-1.mp4" },
-    { id: "vrai-2", title: "Vrai", description: "Unboxing my new pieces", video: "/vrai-2.mp4" },
+    { id: "vrai_5", title: "Vrai", description: "Matching my outfit to my ring stack", video: "/vrai_5.mp4" },
     { id: "linjer", title: "Linjer", description: "Mother's day gifting campaign", video: "/Linjer.mp4" },
     { id: "carat", title: "Carat London", description: "Store visit, Jewellery showcase and styling", video: "/carat_london.mp4" },
     { id: "monica", title: "Monica Vinader", description: "Gifting campaign for jewellery brand", video: "/monicavinader_gifting.mp4" },
